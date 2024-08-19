@@ -1,0 +1,147 @@
+.contaner{
+    background-color: #eee;
+    margin: 100px auto;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contaner .posts {
+    min-width: 1300px;
+    display: flex;
+    justify-content: space-around;
+
+} 
+ 
+.contaner .posts .post {
+    max-width: 400px;
+    background-color: #fff;
+    max-height:600px ;
+    border-radius: 10px;
+
+
+}
+.contaner .posts .post img {
+    width: 100%;
+    height: 45%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.contaner .posts .post .rating {
+    margin: 10px;
+    display: flex;  
+    justify-content: space-between;
+    max-width: 230px;
+
+}
+.contaner .posts .post .rating ul {
+    padding-left: 0px;
+    margin: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.contaner .posts .post .rating ul li{
+   margin: 0px 3px;
+}
+.contaner .posts .post .rating ul li i{
+    color:#ffa121 ;
+}
+.contaner .posts .post h2 {
+    margin: 0px;
+    margin-left: 25px;
+    font-size: 21px;
+}
+.post .classes{
+    position: relative;
+    margin: 10px 10px 10px  25px ;
+    max-width: 235px;
+    height: 30px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+
+}
+.post .classes p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.post .classes p i{
+    color: #80808078;
+    margin: 0px 5px;
+}
+.classes::after{
+    content: "";
+    width: 2px;
+    height: 30px;
+    background-color: #80808078;
+    position: absolute;
+    right: 50% ;
+
+}
+
+.post .last-prgra{
+    color: #80808078;
+    margin-left: 20px;
+}
+.post .by {
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+.post .by .img-by {
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 5px;
+
+}
+.posts .post .by .img-by img {
+  
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin: 1px;
+}
+.post .by  p {
+    margin: 18px 5px;
+}
+.post .by  p span {
+    color: #80808078;
+}
+
+.post .pric {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.post .pric .money del {
+color: gray;
+margin: 0px 5px;
+
+}
+.post .pric .money {
+    color: #cf002f;
+    margin: 20px;
+}
+.post .pric p {
+    color: #80808078;
+    margin: 20px;
+}
+.post .pric::before{
+
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color:#80808078;
+    position: absolute;
+
+}

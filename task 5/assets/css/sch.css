@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+.contaner {
+    width: 100%;
+    height:98vh;  
+    background-position: center;
+    background-size: cover;
+background-image: linear-gradient(0deg,rgba(90, 88, 88,0.6) ,rgb(90, 88, 88,0.6)), url("/assets/images/main.jpg") ;
+
+}
+.contaner h1 {
+    position: relative;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    color: #fff;
+}
+.contaner h1::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background-color: #3ab64c;
+    bottom: 5%;
+    left: calc(50% - 50px);
+}
+.posts{
+    width: 1300px;
+    margin: auto ;
+    display: flex;
+    justify-content: space-around;
+} 
+.posts .post{
+    background-color: #fff;
+    width: 400px;
+    min-height: 600px;
+    position: relative;
+}
+.posts .post img {
+   
+    width: 100%;
+    height: 45%;
+}
+.posts .post .label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 40px;
+    background-color: #3ab64c;
+    color: #fff;
+    top: calc(45% - 40px);
+    right: 30px;
+}
+.label p{
+    margin: 0px !important;
+    padding: 10px;
+}
+.post h3 {
+    font-size: 35px;
+    margin: 40px 0px 5px 20px;
+}
+.post p {
+    font-size:20px ;
+    color: gray;
+    margin: 20px 0px 5px 20px;
+}
+.post .pric {
+    position: relative;
+    margin: 90px 20px 20px; 
+    display: flex;
+    justify-content: space-between;
+}
+.post .pric p {
+    color: black;
+    margin: 0px;
+}
+
+.post .pric::before{
+    content: "";
+    width: 102%;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(168, 164, 164);
+    top: -15px;
+    left: -2px;
+    
+}

@@ -1,0 +1,74 @@
+.contaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 95%;
+    height: auto;
+    margin: 100px auto;
+    background-position: center;
+    background-size: cover;
+    background-image:  linear-gradient( To left,rgba(120, 61, 222, 0.9) , rgba(86, 52, 218, 0.9)),url("/assets/images/istockphoto-1256522124-612x612.jpg");
+
+}
+
+.contaner .img-holder {
+  display: flex;
+  min-width: 1000px;
+  justify-content: space-around;
+
+}
+
+.img-holder .post-img img{
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.img-holder .post{
+  max-width: 400px;
+  color: #fff;
+  margin-top:20px ;
+}
+.img-holder .post img{
+  width: 100%;
+  height: 100%;
+}
+.img-holder .post .sapp h2{
+  font-size: 70px;
+  margin: 70px 0px 20px;
+}
+.img-holder .post .sapp h5 {
+  margin: 0px;
+  font-size: 30px;
+  min-width: 500px;
+}
+ .post .sapp .infos{
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+
+}
+ .post .sapp .infos .info{
+  min-width: 180px;
+display: flex;
+justify-content: space-around;
+  border: #fff solid 2px;
+  border-radius: 10px;
+  height: 70px;
+
+}
+.post .sapp .infos .info i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.post .sapp .infos .info p span{
+  font-size: 10px;
+}
+.post .sapp .infos .info p {
+  margin: 0px;
+  font-size: 24px;
+}
+ .post .sapp .last {
+  font-size: 19px;
+}

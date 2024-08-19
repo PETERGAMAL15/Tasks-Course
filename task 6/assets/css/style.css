@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    margin: 0px 10px 10px;
+}
+p{
+    color: rgb(161, 161, 161);
+    margin: 30px 0px 0px;
+}
+.contaner{
+    background-color: #fff;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person-cards{
+    min-width: 1200px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.person-card{
+    position: relative;
+    background-color: #424761;
+    width: 550px;
+    height: 285px;
+
+}
+
+.person-card .rating {
+    margin: 50px 30px 30px 200px;
+    display: flex;  
+    justify-content: space-between;
+    max-width: 230px;
+
+}
+.person-card .rating ul {
+    padding-left: 0px;
+    margin: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.person-card .rating ul li{
+   margin: 0px 3px;
+}
+.person-card .rating ul li i{
+    color:#ffa121 ;
+}
+
+
+.person-card .by {
+    position: absolute;
+    display: flex;
+    left: calc(50% - 60px);
+    top: -50px;
+    
+    
+}
+
+.person-card .by .img-by {
+    width: 90px;
+    height: 90px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 5px;
+
+}
+ .person-card .by .img-by img {
+  
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin: 1px;
+}
+.person-card p {
+    text-align: center;
+    color: #fff;
+    margin: 10px 20px;
+}
+.person-card .name{
+    margin: 30px 10px 10px 10px;
+    font-size: 25px;
+
+}
+
+.person-card .comans {
+position: absolute;
+right: 25px;
+bottom: -25px;
+width: 60px;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 5px;
+}
+.person-card .comans i {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    padding: 10px;
+    font-size: 40px;
+background-color: #fff;
+border-radius: 50%;
+}

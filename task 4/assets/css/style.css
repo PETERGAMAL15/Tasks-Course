@@ -1,0 +1,71 @@
+.contaner {
+    margin: 100px 300px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us {
+    max-width: 70%;
+}
+
+.about-us p {
+    max-width: 90%;
+}
+.about-us h2 {
+    color: #fdc236;
+    font-size: 40px;
+    
+}
+.about-us h2::before
+{
+    content: "";
+    background-color: #fdc236;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    margin-top: 60px;
+
+} 
+.about-us h2 span{
+    color: #000;
+}
+
+.about-us h5{
+    font-size: 20px;
+    color: #636363;
+}
+.about-us p{
+    color: #636363;
+}
+.about-us ul {
+    padding: 0px;
+    margin-left: -5px;
+    list-style: none;
+    display: grid;
+    grid:auto auto / auto auto;
+
+}
+.about-us ul li {
+    color: #636363;
+    margin: 5px;
+}
+.about-us ul li i {
+    color: #fdc236;
+    margin: 5px;
+}
+
+.photo img {
+
+    max-width: 300px;
+    height: 400px;
+box-shadow: 10px 10px #fdc236;
+}
+.about-us button {
+    color: #fff;
+    background-color: #fdc236;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+}

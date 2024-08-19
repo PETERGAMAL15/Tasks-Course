@@ -1,0 +1,139 @@
+.contaner{
+    width: 95%;
+    height: auto;
+margin: 75px auto;
+position: relative;
+
+}
+.contaner .img-holder  {
+width: 100%;
+height: auto;
+
+
+}
+.contaner .img-holder img {
+    width: 100%;
+    max-height: 750px;
+}
+.contaner .content .contact-us {
+    position: absolute;
+    max-width: 600px;
+    height: auto;
+    background-color: transparent;
+    right: 480px;
+    bottom: 200px;
+}
+.contaner .content .contact-us .pragra h6 {
+    margin: 10px 0px;
+    color: red;
+    font-size: 20px;
+}
+.contaner .content .contact-us .pragra h3 {
+    color: #fff;
+    margin: 20px 0px;
+    font-size: 50px;
+    
+}
+.contaner .content .contact-us .pragra p {
+    color:#bdbdbd;
+    font-size: 20px;
+   
+}
+
+.contaner .content .contact-us .cont {
+    min-width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+.contaner .content .contact-us .cont .info {
+    max-width: 300px;
+}
+
+
+.contaner .content .contact-us .cont .info h4 {
+    
+
+color: #fff;
+font-size: 25px;
+}
+
+.contaner .content .contact-us .cont .info p {
+    color:#b6afaf;
+    font-size: 20px;
+}
+.contaner .content .contact-us .cont .info i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 40px;
+    box-shadow: 0px 0px 27px red;
+}
+
+.content .format {
+    bottom: -40px;
+    background-color: #fff;
+    min-width: 510px;
+    min-height: 690px;
+    position: absolute;
+    left: 500px;
+    box-shadow: 0px 11px 17px #7b7b7b;
+    border-radius: 10px;
+}
+
+.content .format h2 {
+    font-size: 40px;
+    margin: 20px 0px 5px;
+    color: #111833;
+}
+.content .format p{
+    font-size: 20px;
+    margin: 5px 0px 35px;
+    color: gray;
+}
+.content .format form textarea {
+    resize: vertical;
+}
+
+.content .format form {
+
+
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 30px auto;
+
+}
+
+.content .format form .main-input{
+    margin-bottom: 40px;
+    min-height: 50px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid #7b7b7b6e;
+}
+.content .format form [name="message"]{
+
+    min-height: 150px;
+    padding: 10px;
+}
+
+.content .format button{
+    background-color: red;
+    color: #fff;
+    min-width: 150px;
+    min-height: 50px;
+    margin-top: 5px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    align-self: flex-start;
+    outline: none;
+    border: none;
+    }
+   

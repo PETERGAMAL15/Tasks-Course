@@ -1,0 +1,42 @@
+
+ul{
+    list-style: none;
+}
+
+.contaner .numers ul {
+    border: #7b7b7a solid 1px;
+max-width:50%;
+    display: flex;
+    height: auto;
+    padding: 0px;
+    justify-content: space-around;
+margin-left: 450px;
+}
+.numers ul li i {
+color: #d2083c;
+font-size:30px;
+margin-top: 22px;
+}
+.numers ul li p span {
+    font-size: 45px;
+    color: black;
+}
+.numers ul li p {
+    color: #7b7b7a;
+    font-size: 10px;
+}
+.numers ul li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.numers ul li:not(:last-child)::after {
+    content: "";
+    background-color: #7b7b7a;
+    width: 1px;
+    height: 83px;
+    position: absolute;
+    margin-left: 250px;
+    /* border-right:  #7b7b7a solid 1px;
+    padding: 10px; */
+} 

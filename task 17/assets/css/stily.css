@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fff;
+
+}
+
+.doctors{
+    
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+
+margin: 100px auto;
+}
+
+.doc{
+    background-color:#fff;
+    width: 250px;
+    min-height: 400px;
+box-shadow:2px 4px 14px rgb(74 74 74);
+
+
+}
+
+.doc img{
+    width: 100%;
+    height: 80%;
+}
+.doc p{
+    font-size: 15px;
+    padding:0px 10px 30px ;
+    
+    color: #8a8888;
+}
+
+
+h4{
+    color: #002856;
+    padding:0px 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+h6{
+    color: #ff225c;
+text-align: center;
+font-size: 15px;
+}
+h1{
+    color: #002856;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .doctors{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    .doc{
+        
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }

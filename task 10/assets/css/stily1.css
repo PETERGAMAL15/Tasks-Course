@@ -1,0 +1,175 @@
+*{
+   box-sizing: border-box;
+   margin: 0px;
+}
+ul {
+   list-style: none;
+   margin: 0px;
+}
+a{
+text-decoration: none;
+
+}
+
+
+footer{
+  position: relative; 
+}
+
+.contaner{
+   
+   margin-top:200px;
+   background-color: blanchedalmond;
+   max-width: 100%;
+   display: flex;
+   justify-content: space-around;
+bottom: 0px;
+}
+
+.cont{
+   margin-top: 150px;
+   max-width: 300px;
+}
+
+.cont .logo img{
+   max-width: 200px;
+}
+.cont ul {
+   
+   list-style:disc  ;
+   padding: 10px;
+   margin-left:10px ;
+}
+.cont ul li{
+   
+   padding: 8px;
+}
+
+.cont ul li::marker {
+   color: aqua;
+   
+}
+.cont .social-list ul {
+   list-style: none;
+   margin-left: -20px;
+   padding: 10px;
+   display: flex;
+   
+}
+.cont .social-list ul li{
+   padding: 10px;
+   margin: 10px;
+   background-color: black;
+   min-width: 45px;
+  min-height: 45px;
+ border-radius:10px ;
+
+   
+}
+
+.cont .social-list ul li i {
+   padding: 5px;
+   color: aliceblue;
+   padding: 10px;
+   font-size: 15px;
+
+}
+
+.cont h3 {
+   margin-top:20px;
+color: #000;
+font-size: 30px;
+
+}
+
+
+.cont .ser-list ul li  {
+text-align: left;
+
+}
+
+.cont .links-list ul a {
+   color: #000;
+}
+
+.cont .resnt-post ul li{
+   display: flex;
+}
+
+.cont .resnt-post ul {
+   padding: 0%;
+   margin: 0px;
+   list-style: none;
+}
+.cont .resnt-post ul li{
+   margin: 10px;
+   padding: 10px 0px;
+}
+
+
+.cont .resnt-post ul li img {
+   width: 80px;
+   height: 50px;
+   border-radius: 10px;
+   text-align: left;
+}
+.cont .resnt-post ul li p {
+   margin-left: 10px;
+}
+.cont .resnt-post ul li p span {
+   color: red;
+}
+
+footer label {
+   position: absolute;
+width: 1200px;
+height: 150px;
+   background-color:#eee;
+   border-radius: 10px;
+   left: 364px;
+    top: -75px;
+    box-shadow: 0px -5px 19px rgb(74 74 74);
+}
+
+footer label ul {
+   margin-top: 30px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+
+}
+footer label ul li{
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+footer label ul li i {
+   padding: 0px 10px;
+   font-size: 50px;
+}
+footer label ul li span {
+   padding: 5px;
+font-size: 30px;
+
+}
+
+
+footer .copay-raite{
+   background-color: #ccbba5;
+   width: 100%;
+   height: 80px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+footer .copay-raite ul {
+   font-size: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   width: 400px;
+}
+
+footer .copay-raite p{
+   font-size: 20px;
+}

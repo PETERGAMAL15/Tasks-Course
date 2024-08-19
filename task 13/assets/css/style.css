@@ -1,0 +1,94 @@
+.contaner{
+    max-width: 1300px;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ .photo {
+    text-align: center;
+    position: relative;
+    max-width:500px ;
+    height: auto;
+ }
+ .photo img {
+    max-width: 500px;
+    height: 100%;
+    border-radius: 10px;
+ }
+ .photo label {
+    background-color: #fff;
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 6px 3px 10px gray;
+    position: absolute;
+    right: -75px;
+    top: 230px;
+}
+ .photo label h6{
+    margin: 0px; padding: 0px;
+    color: red;
+    font-size: 80px;
+    
+ }
+ .photo label h6 span {
+    font-size: 60px;
+ }
+
+ .discover {
+    max-width: 500px;
+    height: auto;
+
+ }
+
+ .discover .dis {
+    color: red;
+ }
+ .discover h2 {
+    color: #171b2a;
+    font-size: 50px;
+ }
+ p {
+    color: gray;
+ }
+ .discover .info {
+    display: flex;
+    justify-content: space-between;
+ }
+ .discover .info .icon {
+
+
+
+
+ }
+
+ .discover .info .icon i {
+
+    background-color: #feeff0;
+    border: 1px solid #feeff0;
+    border-style:dashed ;
+    padding: 20px;
+    margin: 10px;
+    color: red;
+    font-size: 30px;
+    border-radius: 40px;
+ }
+
+ .discover .info .paragra h4 {
+
+    color: #171b2a;
+ }
+
+ .discover button {
+    color: #fff;
+    width: 110px;
+    height: auto;
+    background-color: red;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius:20px;
+    margin: 15px;
+}
